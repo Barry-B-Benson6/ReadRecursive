@@ -1,6 +1,6 @@
 {
   "name": "readrecursive",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Allows to read a directory recursively",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/Barry-B-Benson6/ReadRecursive/issues"
   },
-  "homepage": "https://github.com/Barry-B-Benson6/ReadRecursive#readme",
-  "dependencies": {
-    "fs": "^0.0.1-security"
-  }
+  "homepage": "https://github.com/Barry-B-Benson6/ReadRecursive#readme"
 }

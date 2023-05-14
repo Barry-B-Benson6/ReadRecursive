@@ -5,13 +5,13 @@ function ReadDirSyncRecursive(path) {
     fs.readdirSync(path).forEach(file => {
         if (file.includes('.')) {
             files.push(`${path}\\${file}`);
-        } else if (file !== 'node_modules') {
+        } else{
             files = files.concat(ReadDirSyncRecursive(`${path}\\${file}`));
         }
     });
     return files;
 }
-
+console.log(ReadDirSyncRecursive('.'))
 module.exports = {
     ReadDirSyncRecursive
 }
